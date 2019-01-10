@@ -1,9 +1,9 @@
 <footer id="footer">
     <div class="container">
         <ul class="terms">
-            <li class="privacy"><a href="#">개인정보처리방침</a></li>
-            <li><a href="#">이메일무단수집거부</a></li>
-            <li class="d-none d-md-block"><a href="#">찾아오시는 길</a></li>
+            <li class="privacy"><a href="/other/privacy.php">개인정보처리방침</a></li>
+            <li><a href="/other/email.php">이메일무단수집거부</a></li>
+            <li class="d-none d-md-block"><a href="/introduction/location.php">찾아오시는 길</a></li>
         </ul>
         <div class="row">
             <div class="col-12 col-xl-9">

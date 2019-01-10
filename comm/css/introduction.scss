@@ -1,0 +1,28 @@
+@import 'common';
+
+.page-header.introduction {
+    .page-intro {
+        background-image: url(/comm/images/introduction/bg_xs_page_header.jpg);
+    }
+    @media(min-width: $lg) {
+        .page-intro {
+            background-image: url(/comm/images/introduction/bg_xl_page_header.jpg);
+        }
+    }
+}
+
+.introduction {
+    .vision {
+        .section-content {
+            > figure {
+                padding: 30px 50px;
+                border: 1px solid #ccc;
+                background-color: #f8f8f8;
+                .img-fluid {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

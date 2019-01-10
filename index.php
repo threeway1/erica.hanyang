@@ -19,7 +19,7 @@
                     </div>
                     <div class="btn-area d-none d-lg-block">
                         <p>
-                            <a href="#" class="btn btn-lg" role="button">센터소개바로가기</a>
+                            <a href="/introduction/vision.php" class="btn btn-lg" role="button">센터소개바로가기</a>
                         </p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="btn-area d-none d-lg-block">
                         <p>
-                            <a href="#" class="btn btn-lg" role="button">센터소개바로가기</a>
+                            <a href="/introduction/vision.php" class="btn btn-lg" role="button">센터소개바로가기</a>
                         </p>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
             <div class="backdrop"></div>
             <ol>
                 <li class="quality-education">
-                    <div class="container">
+                    <div>
                         <figure>
                             <img src="/comm/images/main/img_xs_program01.jpg" class="img-fluid d-xl-none" alt="소프트웨어 소양교육">
                             <img src="/comm/images/main/img_xl_program01.jpg" class="img-fluid d-none d-xl-block" alt="소프트웨어 소양교육">
@@ -61,20 +61,20 @@
                                 SW특성화대학 사업을 추진하면서 예비 대학생을 대상으로 한 SW기초교육을 2015년 1월부터 실시하고 있으며, SW중심대학 사업을 통해 확대 실시할 계획입니다.
                             </p>
                             <div class="btn-area">
-                                <a href="#" class="btn btn-more" role="button">자세히 보기</a>
+                                <a href="/courtesy_training/prevocational.php" class="btn btn-more" role="button">자세히 보기</a>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li class="value-spread">
-                    <div class="container">
+                    <div>
                         <div class="details">
-                            <h3><span>SW</span> 소양교육</h3>
+                            <h3><span>SW</span> 가치확산</h3>
                             <p>
                                 4차 산업혁명 시대에 맞는 인재 양성의 일환으로 인공지능, 빅데이터처리, 보안, 정보검색 등 다양한 분야의 전문가를 초청하여 현재 SW분야의 동향 파악을 목적으로 합니다.
                             </p>
                             <div class="btn-area">
-                                <a href="#" class="btn btn-more" role="button">자세히 보기</a>
+                                <a href="/value_spread/process.php" class="btn btn-more" role="button">자세히 보기</a>
                             </div>
                         </div>
                         <figure>
@@ -86,110 +86,135 @@
                 </li>
             </ol>
         </article>
-        <article class="notice">
+        <article class="notice-quick">
+            <div class="backdrop"></div>
+            <div class="article-content">
+                <div class="notice">
+                    <div class="container">
+                        <ul class="row">
+                            <li class="col-4">
+                                <a href="#">
+                                    <div class="notice-img">
+                                        <img src="/comm/images/main/img_notice01.jpg" class="img-fluid" alt="공지사항 이미지">
+                                    </div>
+                                    <div class="details">
+                                        <strong>NOTICE</strong>
+                                        <p>소프트웨어 교육센터 공지사항 입니다.</p>
+                                        <span class="date">2018-12-01</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">
+                                    <div class="notice-img">
+                                        <img src="/comm/images/main/img_notice02.jpg" class="img-fluid" alt="공지사항 이미지">
+                                    </div>
+                                    <div class="details">
+                                        <strong>NOTICE</strong>
+                                        <p>소프트웨어 교육센터 공지사항 입니다.</p>
+                                        <span class="date">2018-12-01</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">
+                                    <div class="notice-img">
+                                        <img src="/comm/images/main/img_notice03.jpg" class="img-fluid" alt="공지사항 이미지">
+                                    </div>
+                                    <div class="details">
+                                        <strong>NOTICE</strong>
+                                        <p>소프트웨어 교육센터 공지사항 입니다.</p>
+                                        <span class="date">2018-12-01</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="quick-link">
+                    <div class="container">
+                        <ul class="row">
+                            <li class="col-3">
+                                <a href="/introduction/vision.php">
+                                    <figure>
+                                        <img src="/comm/images/main/ico_quick01.png" alt="비전&목표">
+                                        <figcaption>비전&amp;목표</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="col-3">
+                                <a href="/community/reference_room.php">
+                                    <figure>
+                                        <img src="/comm/images/main/ico_quick02.png" alt="자료실">
+                                        <figcaption>자료실</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="col-3">
+                                <a href="/introduction/location.php">
+                                    <figure>
+                                        <img src="/comm/images/main/ico_quick03.png" alt="찾아오시는 길">
+                                        <figcaption>찾아오시는 길</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="col-3">
+                                <a href="/community/news.php">
+                                    <figure>
+                                        <img src="/comm/images/main/ico_quick04.png" alt="뉴스">
+                                        <figcaption>뉴스</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="site-map d-none d-xl-block">
             <div class="container">
-                <ul class="notice-list">
-                    <li>
-                        <div class="content">
-                            <div class="notice-img">
-                                <img src="/comm/images/main/img_notice01.jpg" class="img-fluid" alt="공지사항 이미지">
-                            </div>
-                            <div class="details">
-                                <strong>NOTICE</strong>
-                                <p>소프트웨어 교육센터 공지사항 입니다.</p>
-                                <span class="date">2018-12-01</span>
-                            </div>
-                        </div>
+                <ul class="row">
+                    <li class="col-3">
+                        <h3>센터소개</h3>
+                        <ul>
+                            <li><a href="/introduction/vision.php">비전&amp;목표</a></li>
+                            <li><a href="/introduction/group.php">조직구성</a></li>
+                            <li><a href="/introduction/history.php">연혁</a></li>
+                            <li><a href="/introduction/location.php">찾아오시는 길</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <div class="content">
-                            <div class="notice-img">
-                                <img src="/comm/images/main/img_notice02.jpg" class="img-fluid" alt="공지사항 이미지">
-                            </div>
-                            <div class="details">
-                                <strong>NOTICE</strong>
-                                <p>소프트웨어 교육센터 공지사항 입니다.</p>
-                                <span class="date">2018-12-01</span>
-                            </div>
-                        </div>
+                    <li class="col-3">
+                        <h3>SW소양교육</h3>
+                        <ul>
+                            <li><a href="/courtesy_training/prevocational.php">입학 전 SW기초교육</a></li>
+                            <li><a href="/courtesy_training/nonscience_major.php">비전공자 SW기초교육</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <div class="content">
-                            <div class="notice-img">
-                                <img src="/comm/images/main/img_notice03.jpg" class="img-fluid" alt="공지사항 이미지">
-                            </div>
-                            <div class="details">
-                                <strong>NOTICE</strong>
-                                <p>소프트웨어 교육센터 공지사항 입니다.</p>
-                                <span class="date">2018-12-01</span>
-                            </div>
-                        </div>
+                    <li class="col-3">
+                        <h3>SW가치확산</h3>
+                        <ul>
+                            <li><a href="/value_spread/process.php">개방형 온라인 SW교육과정</a></li>
+                            <li><a href="/value_spread/education.php">SW교육</a></li>
+                            <li><a href="/value_spread/special_lecture.php">SW특강</a></li>
+                        </ul>
+                    </li>
+                    <li class="col-3">
+                        <h3>커뮤니티</h3>
+                        <ul>
+                            <li><a href="/community/notice.php">공지사항</a></li>
+                            <li><a href="/community/news.php">뉴스</a></li>
+                            <li><a href="/community/reference_room.php">자료실</a></li>
+                            <li><a href="/community/bulletin_board.php">게시판</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
         </article>
     </main>
-    
+
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-        (function($){
-            $(document).ready(function(){
-                $('.jumbotron > ul').slick({
-                    arrows: false,
-                    dots: true,
-                    autoplay: true,
-                    autoplaySpeed: 6000,
-                });
-            });
-            $('.jumbotron > ul').on('afterChange', function(event, slick, currentSlide, nextSlide){
-                $('.slick-slide').removeClass('action');
-                setTimeout(function (){ 
-                    $('.slick-active').addClass('action'); 
-                });
-            });
-            $('.jumbotron > ul').on('init', function(event,slick){
-                setTimeout(function(){ 
-                    $('.slick-active').addClass('action'); 
-                });
-            });
-            
-            $(document).ready(function(){
-                $('.notice-list').slick({
-                    dots: false,
-                    infinite: false,
-                    speed: 300,
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    responsive: [
-                    {
-                        breakpoint: 1200,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-                            infinite: true,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 992,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1.5,
-                            slidesToScroll: 1
-                        }
-                    }
-                    ]
-                });
-            });
-        })(jQuery);
-    </script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

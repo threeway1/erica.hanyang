@@ -188,10 +188,10 @@ body {
             }
             > ul {
                 position: relative;
-                height: 210px;
+                height: 0;
                 padding-top: 20px;
                 text-align: center;
-                display: none;
+                @include transition();
                 > li {
                     > a {
                         position: relative;
@@ -238,12 +238,14 @@ body {
         height: 0;
         overflow: hidden;
         background-color: #fff;
+        @include transition();
         .slogan {
             width: 1260px;
+            overflow: hidden;
+            height: 0;
             margin: 0 auto;
             text-align: left;
-            display: none;
-            @include transition($duration: .30s);
+            @include transition();
             p {
                 float: left;
                 text-align: center;
@@ -290,7 +292,7 @@ body {
             overflow: visible;
             height: 210px;
             .slogan {
-                display: block;
+                height: 210px;
             }
         }
         > ul {
@@ -298,7 +300,7 @@ body {
                 overflow: visible;
                 height: auto;
                 > ul {
-                    display: block;
+                    height: 210px;
                     z-index: 1;
                 }
             }

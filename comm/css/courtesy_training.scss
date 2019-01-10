@@ -1,0 +1,12 @@
+@import 'common';
+
+.page-header.courtesy-training {
+    .page-intro {
+        background-image: url(/comm/images/courtesy_training/bg_xs_page_header.jpg);
+    }
+    @media(min-width: $lg) {
+        .page-intro {
+            background-image: url(/comm/images/courtesy_training/bg_xl_page_header.jpg);
+        }
+    }
+}

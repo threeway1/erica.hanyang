@@ -1,0 +1,12 @@
+@import 'common';
+
+.page-header.community {
+    .page-intro {
+        background-image: url(/comm/images/community/bg_xs_page_header.jpg);
+    }
+    @media(min-width: $lg) {
+        .page-intro {
+            background-image: url(/comm/images/community/bg_xl_page_header.jpg);
+        }
+    }
+}
