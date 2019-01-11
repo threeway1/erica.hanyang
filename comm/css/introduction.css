@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -401,12 +402,392 @@ a {
   .page-header.introduction .page-intro {
     background-image: url(/comm/images/introduction/bg_xl_page_header.jpg); } }
 
-.introduction .vision .section-content > figure {
+.vision .section-content > .vision-img {
   padding: 30px 50px;
   border: 1px solid #ccc;
   background-color: #f8f8f8; }
-  .introduction .vision .section-content > figure .img-fluid {
+  .vision .section-content > .vision-img .img-fluid {
     display: block;
     margin: 0 auto; }
+.vision .section-content .divide-content {
+  margin-top: 30px; }
+  .vision .section-content .divide-content > figure {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc; }
+    .vision .section-content .divide-content > figure .img-fluid {
+      width: 100%; }
+  .vision .section-content .divide-content .summary dl dt {
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    color: #004483;
+    font-weight: 400;
+    padding-bottom: 5px; }
+    .vision .section-content .divide-content .summary dl dt:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      border-top: 1px solid #d4dae4;
+      border-bottom: 1px solid #6681a7;
+      background-color: #004483; }
+    .vision .section-content .divide-content .summary dl dt.light {
+      color: #2079d8; }
+      .vision .section-content .divide-content .summary dl dt.light:after {
+        border-top-color: 1px solid #d6e2f6;
+        border-bottom-color: 1px solid #71a0e2;
+        background-color: #2079d8; }
+  .vision .section-content .divide-content .summary dl dd {
+    margin-top: 15px; }
+.vision .section-content .procedure-img {
+  margin-top: 30px; }
+  .vision .section-content .procedure-img .img-fluid {
+    display: block;
+    margin: 0 auto;
+    width: 100%; }
+@media (min-width: 768px) {
+  .vision .section-content .procedure-img {
+    margin-top: 60px; }
+  .vision .section-content .divide-content ul li ~ li .details {
+    margin-top: 0; }
+  .vision .section-content .divide-content .summary dl dt {
+    font-size: 15px; } }
+@media (min-width: 992px) {
+  .vision .section-content .divide-content {
+    margin-top: 40px; }
+  .vision .section-content .procedure-img {
+    margin-top: 80px; }
+  .vision .section-content .divide-content .summary dl dt {
+    font-size: 17px; }
+  .vision .section-content .divide-content .summary dl dd {
+    margin-top: 20px; } }
+
+@media (min-width: 1200px) {
+  .target .section-content .table-responsive .table thead tr th:nth-of-type(1) {
+    width: 170px; }
+  .target .section-content .table-responsive .table thead tr th:nth-of-type(2) {
+    width: 200px; } }
+
+.group .section-content .tab-menu {
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    .group .section-content .tab-menu {
+      margin-bottom: 65px; } }
+  @media (min-width: 992px) {
+    .group .section-content .tab-menu {
+      margin-bottom: 60px; } }
+  @media (min-width: 1200px) {
+    .group .section-content .tab-menu {
+      margin-bottom: 80px; } }
+.group .section-content > figure .img-fluid {
+  display: block;
+  margin: 0 auto; }
+
+.job-assignment .section-content .table-responsive .table tbody tr td {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px; }
+  .job-assignment .section-content .table-responsive .table tbody tr td a {
+    display: inline-block; }
+    @media (min-width: 1200px) {
+      .job-assignment .section-content .table-responsive .table tbody tr td a {
+        cursor: default; } }
+@media (min-width: 1200px) {
+  .job-assignment .section-content .table-responsive thead tr th:nth-of-type(1) {
+    width: 170px; }
+  .job-assignment .section-content .table-responsive thead tr th:nth-of-type(2) {
+    width: 100px; } }
+
+.history .section-content .history-list {
+  position: relative; }
+  .history .section-content .history-list > li strong {
+    position: relative;
+    z-index: 1;
+    width: 90px;
+    height: 90px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+    background-color: #004483;
+    font-family: 'Roboto', sans-serif; }
+  .history .section-content .history-list > li .details {
+    clear: both;
+    padding: 25px 0 25px 90px; }
+    .history .section-content .history-list > li .details > ol > li {
+      position: relative; }
+      .history .section-content .history-list > li .details > ol > li:before {
+        position: absolute;
+        top: 6px;
+        left: -50px;
+        display: block;
+        width: 11px;
+        height: 11px;
+        content: "";
+        z-index: 1;
+        border-radius: 50%;
+        border: 3px solid #2079d8;
+        background-color: #fff; }
+      .history .section-content .history-list > li .details > ol > li > dl {
+        overflow: hidden; }
+        .history .section-content .history-list > li .details > ol > li > dl > dt {
+          float: left;
+          width: 45px;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 25px;
+          color: #2079d8;
+          font-family: 'Roboto', sans-serif; }
+        .history .section-content .history-list > li .details > ol > li > dl > dd {
+          font-size: 12px;
+          color: #666;
+          font-weight: 400;
+          line-height: 25px;
+          padding-left: 50px; }
+  .history .section-content .history-list > li:last-child .details {
+    padding-bottom: 0; }
+  .history .section-content .history-list:after {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    width: 3px;
+    height: 100%;
+    display: block;
+    content: "";
+    background-color: #dfdfdf; }
+@media (min-width: 768px) {
+  .history .section-content .history-list > li strong {
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    font-size: 30px; }
+  .history .section-content .history-list > li .details {
+    padding-left: 130px;
+    padding-bottom: 40px; }
+    .history .section-content .history-list > li .details > ol > li:before {
+      top: 8px;
+      width: 13px;
+      height: 13px;
+      left: -70px; }
+    .history .section-content .history-list > li .details > ol > li > dl > dt {
+      width: 55px;
+      font-size: 14px;
+      line-height: 32px; }
+    .history .section-content .history-list > li .details > ol > li > dl > dd {
+      padding-left: 65px;
+      font-size: 14px;
+      line-height: 32px; }
+  .history .section-content .history-list:after {
+    width: 4px;
+    left: 65px; } }
+@media (min-width: 992px) {
+  .history .section-content .history-list > li {
+    position: relative; }
+    .history .section-content .history-list > li strong {
+      width: 170px;
+      height: 170px;
+      font-size: 42px;
+      line-height: 170px; }
+    .history .section-content .history-list > li figure {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding-left: 270px; }
+      .history .section-content .history-list > li figure .img-fluid {
+        height: 170px; }
+    .history .section-content .history-list > li .details {
+      padding-left: 270px;
+      padding-bottom: 60px; }
+      .history .section-content .history-list > li .details > ol > li:before {
+        top: 10px;
+        width: 15px;
+        height: 15px;
+        left: -190px; }
+      .history .section-content .history-list > li .details > ol > li > dl > dt {
+        width: 70px;
+        font-size: 16px;
+        line-height: 40px; }
+      .history .section-content .history-list > li .details > ol > li > dl > dd {
+        font-size: 16px;
+        line-height: 40px;
+        padding-left: 80px; }
+  .history .section-content .history-list:after {
+    left: 85px; } }
+
+.location .section-content > figure {
+  margin-bottom: 35px; }
+.location .section-content article ~ article {
+  margin-top: 50px; }
+.location .section-content article .dot-list {
+  padding-left: 10px; }
+  .location .section-content article .dot-list > li > dl {
+    overflow: hidden; }
+    .location .section-content article .dot-list > li > dl > dt {
+      width: 45px;
+      float: left;
+      font-size: 12px;
+      color: #2079d8;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: -2px;
+      text-align: justify;
+      text-align-last: justify; }
+    .location .section-content article .dot-list > li > dl > dd {
+      font-size: 12px;
+      color: #666;
+      line-height: 20px;
+      font-weight: 400;
+      padding-left: 80px; }
+      .location .section-content article .dot-list > li > dl > dd a {
+        display: inline-block; }
+        @media (min-width: 1200px) {
+          .location .section-content article .dot-list > li > dl > dd a {
+            cursor: default; } }
+  .location .section-content article .dot-list > li:before {
+    color: #2079d8; }
+.location .section-content article.directions h6 {
+  font-size: 13px;
+  color: #004483;
+  font-weight: 400;
+  margin-top: 20px; }
+.location .section-content article.directions dl {
+  overflow: hidden;
+  margin-top: 20px; }
+  .location .section-content article.directions dl dt {
+    float: left;
+    clear: both;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 6px; }
+    .location .section-content article.directions dl dt.blue-bus {
+      background-color: #3b83c6; }
+    .location .section-content article.directions dl dt.green-bus {
+      background-color: #aacd06; }
+    .location .section-content article.directions dl dt.line-two {
+      background-color: #1cb939; }
+    .location .section-content article.directions dl dt.bundang-line {
+      background-color: #fcc727; }
+    .location .section-content article.directions dl dt.gyeongui-line {
+      background-color: #2bbfb8; }
+  .location .section-content article.directions dl dd {
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-bottom: 7px; }
+    .location .section-content article.directions dl dd > ul > li {
+      display: inline-block; }
+      .location .section-content article.directions dl dd > ul > li:after {
+        content: ", "; }
+      .location .section-content article.directions dl dd > ul > li:last-child:after {
+        content: ""; }
+  .location .section-content article.directions dl.bus {
+    margin-bottom: 30px; }
+    .location .section-content article.directions dl.bus dt {
+      width: 40px; }
+  .location .section-content article.directions dl.subway dt {
+    width: 50px;
+    border-radius: 30px; }
+@media (min-width: 768px) {
+  .location .section-content > figure {
+    margin-bottom: 50px; }
+  .location .section-content article .sub-title {
+    margin-bottom: 25px; }
+  .location .section-content article ~ article {
+    margin-top: 60px; }
+  .location .section-content article .dot-list > li > dl > dt {
+    width: 50px;
+    font-size: 14px;
+    line-height: 30px; }
+  .location .section-content article .dot-list > li > dl > dd {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 100px; }
+  .location .section-content article.directions .information {
+    overflow: hidden; }
+    .location .section-content article.directions .information.space {
+      margin-top: 40px; }
+    .location .section-content article.directions .information .details {
+      float: left;
+      padding-top: 10px;
+      margin-left: 30px; }
+      .location .section-content article.directions .information .details h6 {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 8px; }
+      .location .section-content article.directions .information .details dl {
+        margin: 0; }
+        .location .section-content article.directions .information .details dl dt {
+          width: 50px;
+          font-size: 12px;
+          line-height: 22px;
+          margin-bottom: 8px; }
+        .location .section-content article.directions .information .details dl dd {
+          font-size: 13px;
+          line-height: 22px;
+          margin-bottom: 8px; }
+    .location .section-content article.directions .information figure {
+      float: left;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 100px; }
+      .location .section-content article.directions .information figure img {
+        width: 60px;
+        display: inline-block; }
+      .location .section-content article.directions .information figure.ico-bus {
+        background-color: #004483; }
+      .location .section-content article.directions .information figure.ico-subway {
+        background-color: #2079d8; } }
+@media (min-width: 992px) {
+  .location .section-content > figure {
+    margin-bottom: 70px; }
+  .location .section-content article ~ article {
+    margin-top: 85px; }
+  .location .section-content article .dot-list > li > dl > dt {
+    width: 60px;
+    font-size: 16px;
+    line-height: 30px; }
+  .location .section-content article .dot-list > li > dl > dd {
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 120px; }
+  .location .section-content article .dot-list > li:before {
+    top: 2px;
+    font-size: 28px; }
+  .location .section-content article.directions .information.space {
+    margin-top: 0; }
+  .location .section-content article.directions .information .details {
+    padding-top: 12px; }
+    .location .section-content article.directions .information .details h6 {
+      font-size: 15px; }
+    .location .section-content article.directions .information .details dl dt {
+      font-size: 12px; }
+    .location .section-content article.directions .information .details dl dd {
+      font-size: 15px; }
+  .location .section-content article.directions .information figure {
+    width: 120px;
+    height: 120px;
+    line-height: 120px; }
+    .location .section-content article.directions .information figure img {
+      width: 70px; } }
+@media (min-width: 1200px) {
+  .location .section-content article.directions .information .details {
+    padding-top: 25px; }
+  .location .section-content article.directions .information figure {
+    width: 140px;
+    height: 140px;
+    line-height: 140px; } }
 
 /*# sourceMappingURL=introduction.css.map */

@@ -54,7 +54,92 @@
                     <h3>업무분장</h3>
                 </div>
                 <div class="section-content">
-                    
+                    <nav class="tab-menu">
+                        <ul>
+                            <li><a href="/introduction/group.php">조직도</a></li>
+                            <li class="active"><a href="/introduction/job_assignment.php">업무분장</a></li>
+                        </ul>
+                    </nav>
+                    <div class="table-responsive">
+                        <table class="table" summary="조직 및 직급 정보에 관한 표">
+                            <caption class="sr-only">조직도 정보</caption>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">조직</th>
+                                    <th>직급</th>
+                                    <th>이름</th>
+                                    <th>주요업무</th>
+                                    <th>전화번호</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="6">소프트웨어<br>융합원</td>
+                                    <td rowspan="6">SW<br>교육센터</td>
+                                    <td>소프트웨어융합원장<br>(SW교육센터장 겸직)</td>
+                                    <td>이동호</td>
+                                    <td>센터업무총괄</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>특임교수</td>
+                                    <td>최기환</td>
+                                    <td>
+                                        <ul>
+                                            <li>SW가치확산</li>
+                                            <li>프로그램 개발 및 관리</li>
+                                            <li>핵심교양강의</li>
+                                            <li>기초필수강의</li>
+                                        </ul>
+                                    </td>
+                                    <td><a href="tel:0314004882">031-400-4882</a></td>
+                                </tr>
+                                <tr>
+                                    <td>교육전담교수</td>
+                                    <td>조상욱</td>
+                                    <td>
+                                        <ul>
+                                            <li>SW가치확산</li>
+                                            <li>프로그램 개발 및 관리</li>
+                                            <li>핵심교양강의</li>
+                                            <li>기초필수강의</li>
+                                        </ul>
+                                    </td>
+                                    <td><a href="tel:0314001095">031-400-1095</a></td>
+                                </tr>
+                                <tr>
+                                    <td>교육전담교수</td>
+                                    <td>이신희</td>
+                                    <td>
+                                        <ul>
+                                            <li>SW가치확산</li>
+                                            <li>프로그램 개발 및 관리</li>
+                                            <li>핵심교양강의</li>
+                                            <li>기초필수강의</li>
+                                        </ul>
+                                    </td>
+                                    <td><a href="tel:0314001093">031-400-1093</a></td>
+                                </tr>
+                                <tr>
+                                    <td>행정직원</td>
+                                    <td>박연진</td>
+                                    <td>
+                                        <ul>
+                                            <li>행정업무</li>
+                                            <li>예산관리</li>
+                                        </ul>
+                                    </td>
+                                    <td><a href="tel:0314004881">031-400-4881</a></td>
+                                </tr>
+                                <tr>
+                                    <td>사무직원</td>
+                                    <td>박정수</td>
+                                    <td>PC실 관리 및 대여</td>
+                                    <td><a href="tel:0314004881">031-400-4881</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>

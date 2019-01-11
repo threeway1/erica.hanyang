@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -542,22 +543,12 @@ a {
       .jumbotron ul .slick-slide .details .slogan p {
         font-size: 20px;
         line-height: 30px; }
-      .jumbotron ul .slick-slide .btn-area {
+      .jumbotron ul .slick-slide .details .btn-area {
         margin-top: 70px; }
-        .jumbotron ul .slick-slide .btn-area p .btn-lg {
+        .jumbotron ul .slick-slide .details .btn-area p {
           position: relative;
           opacity: 0;
           top: 30px;
-          width: 230px;
-          height: 50px;
-          font-size: 16px;
-          color: #Fff;
-          font-weight: 400;
-          line-height: 50px;
-          text-align: center;
-          display: block;
-          margin: 0 auto;
-          background-color: #2079d8;
           -webkit-transition-property: all;
           transition-property: all;
           -webkit-transition-duration: 0.7s;
@@ -566,11 +557,21 @@ a {
           transition-timing-function: linear;
           -webkit-transition-delay: 0.9s;
           transition-delay: 0.9s; }
-          .jumbotron ul .slick-slide .btn-area p .btn-lg:hover {
-            opacity: 1;
-            color: #2079d8;
-            background-color: #fff; }
-      .jumbotron ul .slick-slide.action .btn-area p .btn-lg {
+          .jumbotron ul .slick-slide .details .btn-area p .btn-lg {
+            width: 230px;
+            height: 50px;
+            font-size: 16px;
+            color: #Fff;
+            font-weight: 400;
+            line-height: 50px;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            background-color: #2079d8; }
+            .jumbotron ul .slick-slide .details .btn-area p .btn-lg:hover {
+              opacity: 1;
+              background-color: #004483; }
+      .jumbotron ul .slick-slide.action .btn-area p {
         top: 0;
         opacity: 1; }
       .jumbotron ul .slick-slide.first {
@@ -907,31 +908,5 @@ a {
           right: 10px; }
       .notice-quick .article-content .quick-link ul > li a figure img {
         width: 110px; } }
-
-.site-map {
-  padding: 60px 0 55px;
-  background-color: #fff; }
-  .site-map ul > li h3 {
-    font-size: 18px;
-    color: #222;
-    font-weight: 400; }
-  .site-map ul > li > ul {
-    margin-top: 30px; }
-    .site-map ul > li > ul > li > a {
-      display: inline-block;
-      font-size: 15px;
-      color: #666;
-      font-weight: 400;
-      line-height: 30px;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.15s;
-      transition-duration: 0.15s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
-      .site-map ul > li > ul > li > a:hover {
-        color: #004483; }
 
 /*# sourceMappingURL=main.css.map */

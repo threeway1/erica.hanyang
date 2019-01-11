@@ -4,7 +4,7 @@
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     
-    <div class="page-header">
+    <div class="page-header introduction">
         <div class="page-intro">
             <div class="container">
                 <small>HANYANG UNIVERSITY ERICA</small>
@@ -18,10 +18,10 @@
                 </li>
                 <li>
                     <div class="dropdown snb-menu">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             센터소개
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-1">
                             <a href="#">센터소개</a>
                             <a href="#">SW소양교육</a>
                             <a href="#">SW가치확산</a>
@@ -31,10 +31,10 @@
                 </li>
                 <li>
                     <div class="dropdown lnb-menu">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             비전&amp;목표
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-2">
                             <a href="#">비전&amp;목표</a>
                             <a href="#">조직구성</a>
                             <a href="#">연혁</a>
@@ -125,7 +125,7 @@
                     
                     <br><br>
                     
-                    <ol class="circle-list">
+                    <ol class="decimal-list">
                         <li>수강생별 코딩 환경 설치와 구성 어려움</li>
                         <li>전용 실습실 외의 공간에서 수업 어려움</li>
                         <li>수강생별 관리(진도, 시험, 채점) 어려움</li>
@@ -133,13 +133,36 @@
                     
                     <br><br>
                     
-                    <ol class="circle-list light">
+                    <ol class="decimal-list light">
                         <li>수강생별 코딩 환경 설치와 구성 어려움</li>
                         <li>전용 실습실 외의 공간에서 수업 어려움</li>
                         <li>수강생별 관리(진도, 시험, 채점) 어려움</li>
                     </ol>
                     
                     <br><br>
+                    
+                    <div class="divide-content">
+                        <ul class="row">
+                            <li class="col-12 col-lg-6">
+                                <div class="details">
+                                    <h5>신산업 소프트웨어 융햡전공 신설</h5>
+                                    <div class="summary">
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-12 col-lg-6">
+                                <div class="details">
+                                    <h5>전교생 SW교육</h5>
+                                    <div class="summary">
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
                 </div>
             </div>
         </section>

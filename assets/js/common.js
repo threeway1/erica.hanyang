@@ -2,11 +2,11 @@
     // mobile gnb 관련
     $(document).on('click', '.btn-nav', function(){
         $(this).addClass('btn-nav-close');
-        $('body').addClass('opened');
+        $('body').addClass('nav-extended');
     });
     $(document).on('click', '.btn-nav-close', function(){
         $(this).removeClass('btn-nav-close');
-        $('body').removeClass('opened');
+        $('body').removeClass('nav-extended');
     });
     $(document).on('click', '#nav > ul > li > a', function() {
         if ($(this).parent().hasClass('active')) {
@@ -27,12 +27,12 @@
 
     // web gnb 관련
     $(document).on('mouseenter focus', '#gnb-nav > ul > li', function(){
-        $('body').addClass('gnb-opened');
+        $('body').addClass('opened');
         $(this).siblings().removeClass('active');
         $(this).addClass('active');
     });
     $(document).on('mouseleave','#header', function(){
-        $('body').removeClass('gnb-opened');
+        $('body').removeClass('opened');
         $('#gnb-nav > ul > li').removeClass('active');
     });
 })(jQuery);

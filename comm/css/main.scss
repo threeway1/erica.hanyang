@@ -187,29 +187,28 @@
                             line-height: 30px;
                         }
                     }
-                }
-                .btn-area {
-                    margin-top: 70px;
-                    p {
-                        .btn-lg {
+                    .btn-area {
+                        margin-top: 70px;
+                        p {
                             position: relative;
                             opacity: 0;
                             top: 30px;
-                            width: 230px;
-                            height: 50px;
-                            font-size: 16px;
-                            color: #Fff;
-                            font-weight: 400;
-                            line-height: 50px;
-                            text-align: center;
-                            display: block;
-                            margin: 0 auto;
-                            background-color: #2079d8;
                             @include transition($duration: .7s, $delay: .9s);
-                            &:hover {
-                                opacity: 1;
-                                color: #2079d8;
-                                background-color: #fff;
+                            .btn-lg {
+                                width: 230px;
+                                height: 50px;
+                                font-size: 16px;
+                                color: #Fff;
+                                font-weight: 400;
+                                line-height: 50px;
+                                text-align: center;
+                                display: block;
+                                margin: 0 auto;
+                                background-color: #2079d8;
+                                &:hover {
+                                    opacity: 1;
+                                    background-color: $kcolor;
+                                }
                             }
                         }
                     }
@@ -217,9 +216,10 @@
                 &.action {
                     .btn-area {
                         p {
+                            top: 0;
+                            opacity: 1;
                             .btn-lg {
-                                top: 0;
-                                opacity: 1;
+                                
                             }
                         }
                     }
@@ -752,36 +752,6 @@
                                     width: 110px;
                                 }
                             }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-.site-map {
-    padding: 60px 0 55px;
-    background-color: #fff;
-    ul {
-        > li {
-            h3 {
-                font-size: 18px;
-                color: #222;
-                font-weight: 400;
-            }
-            > ul {
-                margin-top: 30px;
-                > li {
-                    > a {
-                        display: inline-block;
-                        font-size: 15px;
-                        color: #666;
-                        font-weight: 400;
-                        line-height: 30px;
-                        @include transition();
-                        &:hover {
-                            color: $kcolor;
                         }
                     }
                 }

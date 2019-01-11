@@ -279,6 +279,7 @@
 
 .tab-menu {
     text-align: center;
+    margin-bottom: 20px;
     > ul {
         font-size: 0;
         > li {
@@ -305,6 +306,7 @@
         }
     }
     @media(min-width: $md) {
+        margin-bottom: 40px;
         > ul {
             > li {
                 > a {
@@ -316,6 +318,7 @@
         }
     }
     @media(min-width: $xl) {
+        margin-bottom: 60px;
         > ul {
             > li {
                 > a {
@@ -328,6 +331,7 @@
 }
 
 .table-responsive {
+    border-top: 3px solid $kcolor;
     .table {
         margin: 0;
         thead {
@@ -336,14 +340,11 @@
                     position: relative;
                     font-size: 13px;
                     color: $kcolor;
-                    line-height: 20px;
                     vertical-align: middle;
                     text-align: center;
                     font-weight: 400;
                     padding: 15px 0;
                     border: 0;
-                    border-top: 3px solid $kcolor;
-                    border-bottom: 1px solid $kcolor;
                     background-color: #f6f6f6;
                     &:after {
                         position: absolute;
@@ -370,15 +371,23 @@
                 td {
                     font-size: 12px;
                     color: #666;
-                    font-weight: 400;
-                    line-height: 20px;
+                    font-weight: 300;
+                    vertical-align: middle;
                     white-space: nowrap;
                     padding: 20px;
                     border: 0;
                     border-right: 1px solid #ccc;
                     border-bottom: 1px solid #ccc;
+                    &.center {
+                        text-align: center;
+                    }
                     &:last-child {
                         border-right: 0;
+                    }
+                }
+                &:first-child {
+                    td {
+                        border-top: 1px solid $kcolor;
                     }
                 }
             }
@@ -388,7 +397,6 @@
                 tr {
                     th {
                         font-size: 14px;
-                        line-height: 22px;
                     }
                 }
             }
@@ -406,7 +414,6 @@
                 tr {
                     th {
                         font-size: 15px;
-                        line-height: 26px;
                         padding: 17px 0;
                     }
                 }
@@ -431,7 +438,7 @@
         font-size: 16px;
         color: #333;
         letter-spacing: -.25px;
-        font-weight: 500;
+        font-weight: 400;
         padding-left: 11px;
         &:before {
             position: absolute;
@@ -490,10 +497,10 @@
     }
     @media(min-width: $md) {
         font-size: 17px;
-        padding-top: 20px;
     }
     @media(min-width: $lg) {
         font-size: 20px;
+        padding-top: 20px;
     }
 }
 
@@ -503,7 +510,7 @@
         font-size: 12px;
         color: #666;
         line-height: 20px;
-        font-weight: 400;
+        font-weight: 300;
         padding-left: 10px;
         &:before {
             position: absolute;
@@ -564,7 +571,7 @@
     }
 }
 
-.circle-list {
+.decimal-list {
     > li {
         position: relative;
         font-size: 12px;
@@ -619,6 +626,79 @@
     @media(min-width: $lg) {
         > li {
             font-size: 15px;
+        }
+    }
+}
+
+.divide-content {
+    > ul {
+        > li {
+            > .details {
+                h5 {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #fff;
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: $kcolor;
+                }
+                .summary {
+                    padding: 20px;
+                    border: 1px solid #ccc;
+                }
+            }
+            & ~ li {
+                > .details {
+                    margin-top: 10px;
+                }
+            }
+            &:nth-of-type(even) {
+                .details {
+                    h5 {
+                        background-color: #2079d8;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        > ul {
+            > li {
+                > .details {
+                    h5 {
+                        font-size: 16px;
+                        line-height: 40px;
+                    }
+                    .summary {
+                        padding: 30px 35px;
+                    }
+                }
+                & ~ li {
+                    > .details {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        > ul {
+            > li {
+                > .details {
+                    h5 {
+                        font-size: 17px;
+                        line-height: 55px;
+                    }
+                    .summary {
+                        padding: 35px 40px;
+                    }
+                }
+                & ~ li {
+                    > .details {
+                        margin-top: 0;
+                    }
+                }
+            }
         }
     }
 }

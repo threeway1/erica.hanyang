@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
 
 $md: "768px";
 $lg: "992px";
@@ -21,6 +22,9 @@ $xl: "1200px";
 }
 @mixin msr() {
     font-family: 'Montserrat', sans-serif;
+}
+@mixin roboto() {
+    font-family: 'Roboto', sans-serif;
 }
 
 $kcolor: #004483;

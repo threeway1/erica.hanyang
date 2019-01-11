@@ -19,10 +19,10 @@
                 </li>
                 <li>
                     <div class="dropdown snb-menu">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             센터소개
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-1">
                             <a href="#">센터소개</a>
                             <a href="#">SW소양교육</a>
                             <a href="#">SW가치확산</a>
@@ -32,10 +32,10 @@
                 </li>
                 <li>
                     <div class="dropdown lnb-menu">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             비전&amp;목표
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-2">
                             <a href="#">비전&amp;목표</a>
                             <a href="#">조직구성</a>
                             <a href="#">연혁</a>
@@ -54,7 +54,30 @@
                     <h3>조직도</h3>
                 </div>
                 <div class="section-content">
-                    
+                    <nav class="tab-menu">
+                        <ul>
+                            <li class="active"><a href="/introduction/group.php">조직도</a></li>
+                            <li><a href="/introduction/job_assignment.php">업무분장</a></li>
+                        </ul>
+                    </nav>
+                    <figure>
+                        <img src="/comm/images/introduction/img_xs_group.jpg" class="img-fluid d-lg-none d-xl-none" alt="조직도">
+                        <img src="/comm/images/introduction/img_xl_group.jpg" class="img-fluid d-none d-lg-block d-xl-block" alt="조직도">
+                        <figcaption class="sr-only">
+                            <ol>
+                                <li>
+                                    <h1>소프트웨어 융합원 (소프트웨어 융합원장)</h1>
+                                    <h2>소프트웨어 교육센터 (소프트웨어 교육센터장)</h2>
+                                    <ul>
+                                        <li>특임교수</li>
+                                        <li>교육전담교수</li>
+                                        <li>행정직원</li>
+                                        <li>사무직원</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>

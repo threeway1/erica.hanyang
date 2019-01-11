@@ -1,3 +1,42 @@
+<article class="site-map d-none d-xl-block">
+    <div class="container">
+        <ul class="row">
+            <li class="col-3">
+                <h3>센터소개</h3>
+                <ul>
+                    <li><a href="/introduction/vision.php">비전&amp;목표</a></li>
+                    <li><a href="/introduction/group.php">조직구성</a></li>
+                    <li><a href="/introduction/history.php">연혁</a></li>
+                    <li><a href="/introduction/location.php">찾아오시는 길</a></li>
+                </ul>
+            </li>
+            <li class="col-3">
+                <h3>SW소양교육</h3>
+                <ul>
+                    <li><a href="/courtesy_training/prevocational.php">입학 전 SW기초교육</a></li>
+                    <li><a href="/courtesy_training/nonscience_major.php">비전공자 SW기초교육</a></li>
+                </ul>
+            </li>
+            <li class="col-3">
+                <h3>SW가치확산</h3>
+                <ul>
+                    <li><a href="/value_spread/process.php">개방형 온라인 SW교육과정</a></li>
+                    <li><a href="/value_spread/education.php">SW교육</a></li>
+                    <li><a href="/value_spread/special_lecture.php">SW특강</a></li>
+                </ul>
+            </li>
+            <li class="col-3">
+                <h3>커뮤니티</h3>
+                <ul>
+                    <li><a href="/community/notice.php">공지사항</a></li>
+                    <li><a href="/community/news.php">뉴스</a></li>
+                    <li><a href="/community/reference_room.php">자료실</a></li>
+                    <li><a href="/community/bulletin_board.php">게시판</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</article>
 <footer id="footer">
     <div class="container">
         <ul class="terms">
